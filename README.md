@@ -21,4 +21,4 @@ Deployed: :arrow_right: [Here](https://the-chat-app.netlify.app) :arrow_left:
 
 ## Preview
 
-![Project Image](https://github.com/Chris-Z-85/the-chat-app/thechatapp.png)
+![Project Image](https://github.com/Chris-Z-85/the-chat-app/blob/main/thechatapp.png)
