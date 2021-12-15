@@ -8,7 +8,7 @@ export const useAuth = () => useContext(AuthContext);
 
 export const AuthProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
-  const [user, setUser] = useState({});
+  const [user, setUser] = useState();
   const history = useHistory();
 
   useEffect(() => {
@@ -19,7 +19,7 @@ export const AuthProvider = ({ children }) => {
     });
   }, [user, history]);
 
-  const value = { user, history };
+  const value = { user };
 
   return (
     <AuthContext.Provider value={value}>
